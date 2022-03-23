@@ -6,7 +6,7 @@ let month = d.getMonth() + 1;
 
 let newDate = d.getDate() + "." + month + "." + d.getFullYear();
 
-let apiKey = "d726da3b981f66a9180502b48d376b3e&units=imperial";
+const apiKey = "d726da3b981f66a9180502b48d376b3e&units=imperial";
 
 const button = document.getElementById("generate");
 
